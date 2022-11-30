@@ -1,0 +1,45 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0, 0, 173);
+    border: 1px solid gold;
+    color: white;
+}
+#myDiv{
+    transform: rotatex(0deg);
+    transition-duration: 2s;
+
+}
+
+#myDiv:hover{
+    transform: rotatex(180deg);
+}
+
+#myDiv2{
+    transform: rotatey(0deg);
+    transition-duration: 2s;
+
+}
+
+#myDiv2:hover{
+    transform: rotatey(180deg);
+}
+#myDiv3{
+    transform: rotatez(0deg);
+    transition-duration: 2s;
+
+}
+
+#myDiv3:hover{
+    transform: rotatez(180deg);
+}
+
+a {
+    text-decoration: none;
+    background-color: lightgray;
+    border: 2px solid gray;
+    color: darkolivegreen;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 25px;
+}
