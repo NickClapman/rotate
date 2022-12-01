@@ -1,37 +1,48 @@
 div {
     width: 300px;
     height: 100px;
-    background-color: rgb(0, 0, 173);
-    border: 1px solid gold;
+    background-color: black;
+    border: 1px solid blue;
     color: white;
 }
 #myDiv{
     transform: rotatex(0deg);
-    transition-duration: 2s;
+    transition: transform 3s, background-Color 4s, color 4s;
 
 }
 
 #myDiv:hover{
     transform: rotatex(180deg);
+    background-color: teal;
+    color: white;
 }
 
 #myDiv2{
     transform: rotatey(0deg);
     transition-duration: 2s;
+    transition: transform 2s;
+    transition-timing-function: ease-in;
 
 }
 
 #myDiv2:hover{
-    transform: rotatey(180deg);
+    transform: rotatey(180deg) translate(500px,0px);
+    background-color: teal;
+    color: white;
 }
 #myDiv3{
     transform: rotatez(0deg);
     transition-duration: 2s;
+    transition-delay: 1s;
+    
+    
 
 }
 
 #myDiv3:hover{
     transform: rotatez(180deg);
+    background-color: teal;
+    color: white;
 }
 
 a {
